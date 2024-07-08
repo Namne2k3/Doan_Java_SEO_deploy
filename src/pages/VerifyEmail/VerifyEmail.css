@@ -1,0 +1,65 @@
+.verify_email_form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 50%;
+    margin: 32px auto;
+    border-radius: 12px;
+    padding: 2rem
+}
+
+.verify_email_form_section {
+    min-height: 30vh;
+}
+
+.verify_email_form_header h3 {
+    margin: 0;
+}
+
+.verify_email_form_header i {
+    cursor: pointer;
+}
+
+
+.verify_email_form_header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.verify_email_form_body {
+    width: 100%;
+}
+
+.verify_email_form_body form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.verify_email_form_body form input {
+    padding: 8px;
+}
+
+.verify_email_form_info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.verify_email_form_info i {
+    font-size: 3rem;
+}
+
+.verify_email_form_info p {
+    margin: 0;
+}
+
+.verify_email_form_container button {
+    width: 100%;
+    border-radius: 4px;
+}

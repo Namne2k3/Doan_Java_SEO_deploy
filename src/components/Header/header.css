@@ -1,0 +1,70 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url("https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 12px;
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2 {
+    font-weight: bold;
+    font-size: max(3.5vw, 22px);
+}
+
+.header-contents p {
+    font-size: 1.5vw;
+}
+
+.header-contents button {
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: black;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.header-contents button:hover {
+    background-color: rgb(48, 50, 51);
+    cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+
+    .header-contents {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .header-contents {
+        max-width: 55%;
+    }
+
+    .header-contents h2 {
+        font-size: 4.5vw;
+    }
+
+    .header-contents p {
+        display: none;
+    }
+
+    .header-contents button {
+        padding: 2vw 4vw;
+    }
+}

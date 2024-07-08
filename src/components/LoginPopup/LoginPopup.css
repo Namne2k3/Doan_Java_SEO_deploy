@@ -1,0 +1,94 @@
+.login-popup {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+
+/* <div class="google_btn_container flex items-center justify-center h-screen dark:bg-gray-800">
+                            <button class="px-4 py-2 border flex gap-2 border-slate-200 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:shadow transition duration-150">
+                                <img class="w-6 h-6" src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo" />
+                                <span>Login with Google</span>
+                            </button>
+                        </div> */
+
+.google_btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dark;
+}
+
+.google_btn_container a {
+    padding: 8px 16px;
+    border: 1px solid #000;
+    display: flex;
+    gap: 4px;
+    border-radius: 16px;
+
+}
+
+.google_btn_container img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.login-popup-container {
+    place-self: center;
+    width: max(23vw, 330px);
+    column-rule: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+}
+
+.login-popup-title img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-inputs input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login-popup-container button {
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #49557e;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.login-popup p span {
+    color: #49557e;
+    font-weight: 500;
+    cursor: pointer;
+}

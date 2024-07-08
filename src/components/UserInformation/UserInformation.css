@@ -1,0 +1,97 @@
+.user-info-container {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-info-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.user-info-head button {
+    padding: 0 8px;
+    border-radius: 4px;
+}
+
+.user-info-head-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.user-info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-info-table select {
+    padding: 8px 12px;
+}
+
+.user-info-table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.user-info-table td:first-child {
+    font-weight: bold;
+}
+
+.user-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.confirm-delete-form-modal {
+    border-radius: 12px;
+    background-color: gray;
+}
+
+.confirm-delete-form-modal>.modal_header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.confirm-delete-form-modal input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.confirm-delete-form-modal>.content {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.confirm-delete-form-modal>.actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.confirm-delete-form-modal>.actions button {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.confirm-delete-form-modal>.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
